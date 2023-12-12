@@ -1,0 +1,12 @@
+{
+    "caption": "Get UUID version",
+    "fields": {
+        "AAR": {
+            "caption": "uuid",
+            "editor": "DynamicValue",
+            "name": "uuid",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

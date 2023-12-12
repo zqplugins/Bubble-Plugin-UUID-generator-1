@@ -1,0 +1,39 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "uuid_generator",
+    "icon": "ion-information-circled",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAI": {
+            "caption": "Generated UUID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "generated_uuid",
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Validated",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "validated",
+            "value": "boolean"
+        },
+        "AAM": {
+            "caption": "Version",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "version",
+            "value": "number"
+        }
+    }
+}

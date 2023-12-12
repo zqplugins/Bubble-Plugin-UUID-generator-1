@@ -1,0 +1,12 @@
+{
+    "caption": "Validate UUID",
+    "fields": {
+        "AAQ": {
+            "caption": "uuid",
+            "editor": "DynamicValue",
+            "name": "uuid",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

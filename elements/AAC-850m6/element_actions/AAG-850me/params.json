@@ -1,0 +1,31 @@
+{
+    "caption": "Generate UUID",
+    "fields": {
+        "AAH": {
+            "caption": "version",
+            "default_val": "v1",
+            "editor": "Dropdown",
+            "name": "version",
+            "options": "v1,v3,v4,v5",
+            "rank": 0
+        },
+        "AAJ": {
+            "caption": "namescape",
+            "default_val": "Only for v3 and v5. Define a custom namespace.  Readers, create your own using something like https://www.uuidgenerator.net/",
+            "editor": "DynamicValue",
+            "name": "namespace",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "name",
+            "doc": "Only for v3 and v5",
+            "editor": "DynamicValue",
+            "name": "name",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}
